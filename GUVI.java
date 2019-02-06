@@ -8,13 +8,17 @@ class GUVI
 		int a;
 		Scanner s=new Scanner(System.in);
 		a=s.nextInt();
-	if (number > 0)
+	if (a==0)
         {
-            System.out.println(number+" Positive ");
+            System.out.println(" Zero");
         }
-        else if(number < 0)
+		else if(a<0)
+		{
+			System.out.println("Negative");
+		}
+        else()
         {
-            System.out.println(number+" Zero ");
+            System.out.println(" Pasitive ");
        
         }
 	}
