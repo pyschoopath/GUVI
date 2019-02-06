@@ -5,7 +5,9 @@ class GUVI
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-	int number =3;
+		int a;
+		Scanner s=new Scanner(System.in);
+		a=s.nextInt();
 	if (number > 0)
         {
             System.out.println(number+" Positive ");
@@ -16,3 +18,4 @@ class GUVI
        
         }
 	}
+}
